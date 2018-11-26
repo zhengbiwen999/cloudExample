@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      config: dev/xxzbw   #consul的key名，或文件的名字  (必须是在consul的 config/项目名下/)新建文件
+
+#server:
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+#      discovery:
+#        instance-id: ${spring.application.name}:${server.port}
+#
+#  port: 9988
